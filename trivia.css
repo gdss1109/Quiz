@@ -1,0 +1,36 @@
+html{
+    background-color:grey;
+    height:100%;
+    width:100%; 
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.logo{
+    display:flex;
+    margin:auto;
+    height: 200px;
+    width: 200px;
+}
+
+ul#list{
+list-style: none;
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+    background-color: orange;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 25px;
+  } 
+
+.quizStart{
+      display: block;
+      width:100%;
+      color:black;
+      text-align: center;
+  }
